@@ -19,7 +19,7 @@ store-sales-forecasting/
 ├── README. md # Project description
 ├── requirements.txt # Packages required
 |
-├── Data folder  
+├── downloaddata.txt # Data link  
 |
 ├── SalesPrediction.ipynb # Working notebook
 |
