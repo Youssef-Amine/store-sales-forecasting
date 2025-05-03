@@ -27,7 +27,7 @@ bank-loan-repayment/
 ---
 
 ---
-
+```
 ## 🔖 Technologies used
 
 - Python (pandas, numpy, matplotlib, seaborn, math, datetime)
