@@ -14,7 +14,7 @@ Our data include daily sales for 1,115 Rossmann (drugstore compagny) stores and 
 ## Project structure
 
 ```bash
-bank-loan-repayment/
+store-sales-forecasting/
 |
 ├── README. md # Project description
 ├── requirements.txt # Packages required
@@ -28,6 +28,9 @@ bank-loan-repayment/
 
 ---
 ```
+
+
+
 ## 🔖 Technologies used
 
 - Python (pandas, numpy, matplotlib, seaborn, math, datetime)
@@ -36,6 +39,16 @@ bank-loan-repayment/
 - pmdarima
 - tensorflow
 
+- 
+## Results
+Best ARIMA RMSE:  5845.057201792976
+XGBoost RMSE : 2789.94
+LSTM RMSE : 2389.38
+We used the Root Mean Squared Error (RMSE) to evaluate and validate the performance of various models used. Let's see which model performed better.
+
+We can see from the above result that LSTM performs the best followed by XGBoost and ARIMA.
+
+Our final model is then LSTM and we'll predict the sales of the next 6 weeks for each store.
 
 ---
 
